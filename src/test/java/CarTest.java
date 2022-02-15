@@ -22,4 +22,9 @@ public class CarTest {
     public void hasColour() {
         assertEquals("Purple", car.getColour());
     }
+
+    @Test
+    public void hasEngineOutput() {
+        assertEquals("Vrrooom!", car.getEngineOutput());
+    }
 }
