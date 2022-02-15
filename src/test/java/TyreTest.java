@@ -17,4 +17,9 @@ public class TyreTest {
     public void hasTyreType() {
         assertEquals("Sports", tyre.getTyreType());
     }
+
+    @Test
+    public void hasRadius() {
+        assertEquals(40, tyre.getRadius());
+    }
 }
