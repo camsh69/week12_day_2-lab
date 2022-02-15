@@ -20,4 +20,11 @@ public class Customer {
     public ArrayList<Vehicle> getOwnedVehicles() {
         return ownedVehicles;
     }
+
+    public void buyVehicle(Vehicle vehicle){
+        if (this.money >= vehicle.getPrice()) {
+            this.money -= vehicle.getPrice();
+            this.ownedVehicles.add(vehicle);
+        }
+    }
 }
