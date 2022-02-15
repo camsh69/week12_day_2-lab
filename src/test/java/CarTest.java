@@ -42,4 +42,9 @@ public class CarTest {
     public void hasEngine() {
         assertNotNull(car.getEngine());
     }
+
+    @Test
+    public void hasBrakes() {
+        assertNotNull(car.getBrakes());
+    }
 }
