@@ -30,4 +30,9 @@ public class CustomerTest {
         assertEquals(50000.00, customer.getMoney(), 0.0);
     }
 
+    @Test
+    public void ownedVehiclesStartsEmpty(){
+        assertEquals(0, customer.getOwnedVehicles().size());
+    }
+
 }
