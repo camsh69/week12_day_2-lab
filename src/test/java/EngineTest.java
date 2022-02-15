@@ -22,4 +22,9 @@ public class EngineTest {
     public void hasFuelType() {
         assertEquals("Petrol", engine.getFuelType());
     }
+
+    @Test
+    public void hasEngineSize() {
+        assertEquals(1500, engine.getEngineSize());
+    }
 }
